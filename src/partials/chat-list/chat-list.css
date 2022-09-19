@@ -1,0 +1,69 @@
+.chats {
+  background-color: #FBFBFB;
+  width: 25%;
+  min-height: 100%;
+  border-right: solid #EAEAEA;
+}
+
+.chat {
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+  min-height: 100%;
+}
+
+.profile {
+  text-align: right;
+  margin: 10px;
+}
+
+.profile-text {
+  text-decoration: none;
+  color: #999999;
+}
+
+form {
+  position: relative;
+  margin: 0 auto;
+  background: #EFEFEF;
+  width: 95%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* input,
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+} */
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+
+/* button {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+button:before {
+  content: url("../asserts/search.svg");
+  font-size: 16px;
+  color: #F9F0DA;
+} */
+
+.chats-list {
+  height: 90%;
+}

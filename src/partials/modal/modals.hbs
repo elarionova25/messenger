@@ -1,0 +1,51 @@
+<div id="openAddModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Добавить пользователя</h3>
+                <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+                {{> "input/input"}}
+            </div>
+            <button>
+                Добавить
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="openDeletePersonModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Удалить пользователя</h3>
+                <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+                {{> "input/input"}}
+            </div>
+            <button>
+                Добавить
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="openDeleteModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                {{!-- <h3 class="modal-title">Вы действительно хотите удалить диалог?</h3> --}}
+                <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+                <p>Вы дествительно хотите удалить диалог?</p>
+                <br>
+                <button class="btn yes-btn">ДА!</button>
+                <br>
+                <button class="no-btn">Неа</button>
+            </div>
+        </div>
+    </div>
+</div>

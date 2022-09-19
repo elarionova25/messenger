@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #999999;
+}
+
+.profile-container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 7px #00000080;
+    border-radius: 12px;
+    max-width: 600px;
+    max-height: 700px;
+}
+
+.avatar-wrap {
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    margin: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #00000080;
+    display: block;
+    margin: 40px auto 40px auto;
+    background: #EFEFEF;
+    background-image: url('https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/73/SMH_Mentor_6.png');
+}
+
+.name-wrap {
+    text-align: center;
+    font-weight: 500;
+}
+
+.info-wrap {
+    margin: 0 40px 0 40px;
+    display: flex;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.info-label{
+    font-size: 15px;
+    float: left;
+}
+
+.info {
+    font-size: 15px;
+    float: right;
+    color: #999999;
+    margin-left: auto;
+}
+
+.settings-link {
+    margin: 20px 40px;
+    border-bottom: 1px solid #EAEAEA;
+
+}
+
+.settings-link a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #3369F3;
+}
+
+.back-button{
+    color: #999999;
+    font-size: 19px;
+    margin: 10px;
+}
