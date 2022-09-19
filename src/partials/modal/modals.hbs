@@ -6,11 +6,16 @@
                 <a href="#close" title="Close" class="close">×</a>
             </div>
             <div class="modal-body">
+                <label class="text-field__label" for="{{this}}">Логин</label>
                 {{> "input/input"}}
             </div>
-            <button>
-                Добавить
-            </button>
+            <div class="buttons">
+                <button class="modal-btn">
+                    <a href="#close" style="color:#fff">
+                        Добавить
+                    </a>
+                </button>
+            </div>
         </div>
     </div>
 </div>
@@ -23,11 +28,16 @@
                 <a href="#close" title="Close" class="close">×</a>
             </div>
             <div class="modal-body">
+                <label class="text-field__label" for="{{this}}">Логин</label>
                 {{> "input/input"}}
             </div>
-            <button>
-                Добавить
-            </button>
+            <div class="buttons">
+                <button class="modal-btn">
+                    <a href="#close" style="color:#fff">
+                        Удалить
+                    </a>
+                </button>
+            </div>
         </div>
     </div>
 </div>
@@ -42,9 +52,12 @@
             <div class="modal-body">
                 <p>Вы дествительно хотите удалить диалог?</p>
                 <br>
-                <button class="btn yes-btn">ДА!</button>
-                <br>
-                <button class="no-btn">Неа</button>
+                <div class="buttons">
+                    <button class="modal-btn">
+                        <a href="#close" style="color:#fff">
+                            ДА!</a>
+                    </button>
+                </div> 
             </div>
         </div>
     </div>

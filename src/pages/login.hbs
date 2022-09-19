@@ -9,7 +9,9 @@ styles:
             <p class="title-text">Вход</p>
         </div>
         <div class="data">
-           {{> "input/input"}}
+
+            <label class="text-field__label">Логин</label>
+            {{> "input/input"}}
             <div class="text-field">
                 <label class="text-field__label" for="password">Пароль</label>
                 <input class="text-field__input" type="password" name="password" id="password"
@@ -18,7 +20,8 @@ styles:
         </div>
         <div class="buttons">
             <button class="btn sign-in-btn">
-                <a href="./index.hbs">Войти
+                <a href="./index.hbs" style="color:#fff">
+                    Войти
                 </a>
             </button>
             <br>
