@@ -4,11 +4,6 @@ body {
   display: flex;
 }
 
-.back-btn {
-  color: #999;
-  text-decoration: none;
-}
-
 .profile-container {
   max-width: 600px;
   max-height: 700px;
@@ -30,17 +25,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 13px;
-  text-decoration: none;
-}
-
-.back-button {
-  color: #999;
-  margin: 10px;
-  font-size: 19px;
-}
-
-.back-btn a {
-  color: #999;
   text-decoration: none;
 }
 

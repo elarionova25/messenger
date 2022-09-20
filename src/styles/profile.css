@@ -5,11 +5,6 @@ body {
     /* height: 100%; */
 }
 
-.back-btn {
-    text-decoration: none;
-    color: #999999;
-}
-
 .profile-container {
     position: absolute;
     margin: auto;
@@ -38,14 +33,4 @@ body {
     color: #3369F3;
 }
 
-.back-button{
-    color: #999999;
-    font-size: 19px;
-    margin: 10px;
-}
 
-.back-btn a {
-    text-decoration: none;
-    color: #999999;
-
-}

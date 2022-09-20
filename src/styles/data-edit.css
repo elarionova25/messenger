@@ -3,7 +3,7 @@ a {
 }
 
 .avatar-wrap {
-    align-items: center;
+    text-align: center;
     width: 100%;
     height: 20%;
 }
