@@ -1,6 +1,45 @@
 ---
 styles:
    - '../styles/register.css'
+
+labels: 
+- {
+    name: 'Email',
+    label: 'email',
+    type: 'text'
+}
+- {
+    name: 'Логин',
+    label: 'login',
+    type: 'text'
+
+}
+- {
+    name: 'Имя',
+    label: 'first_name',
+    type: 'text'
+}
+- {
+    name: 'Фамилия',
+    label: 'second_name',
+    type: 'text'
+
+}
+- {
+    name: 'Телефон',
+    label: 'phone',
+    type: 'text'
+}
+- {
+    name: 'Пароль',
+    label: 'password',
+    type: 'password'
+}
+- {
+    name: 'Пароль еще раз',
+    label: 'phone',
+    type: 'password'
+}
 ---
 
 
@@ -12,7 +51,11 @@ styles:
             <p class="title-text">Регистрация</p>
         </div>
         <div class="data">
-            <div class="text-field">
+            {{#each labels}}
+            <label class="text-field__label" for="{{this.label}}">{{this.name}}</label>
+            {{>'input/input'}}
+            {{/each}}
+            {{!-- <div class="text-field">
                 <label class="text-field__label" for="email">Email</label>
                 <input class="text-field__input" type="text" name="email" id="email" placeholder="Введите email">
             </div>
@@ -42,7 +85,7 @@ styles:
                 <label class="text-field__label" for="password">Пароль (ещё раз)</label>
                 <input class="text-field__input" type="password" name="password" id="password"
                     placeholder="Введите пароль">
-            </div>
+            </div> --}}
         </div>
         <div class="buttons">
             <button class="btn register-btn">

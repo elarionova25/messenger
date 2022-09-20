@@ -64,6 +64,16 @@ input {
   height: 90%;
 }
 
+.create-chat {
+  text-align: right;
+  padding: 10px;
+}
+
+.create-chat a {
+  color: #999;
+  font-size: 12px;
+}
+
 .plug {
   width: 75%;
   position: relative;
@@ -84,20 +94,28 @@ input {
 }
 
 .text-bar-field {
-  width: 70%;
+  width: 90%;
   margin: 0;
 }
 
 .icon-wrap {
   text-align: center;
-  width: 5%;
-  height: 30px;
+  width: 42px;
+  height: 42px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: inline-block;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.circle {
+  width: 42px;
+  height: 100%;
+  background-color: #3369f3;
+  border-radius: 50%;
+}
+
+input[type="file"] {
+  display: none;
 }
 
 .header-chat {
@@ -537,9 +555,40 @@ img {
   font-size: 16px;
 }
 
+.yes-no-buttons {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+
+.yes-btn {
+  appearance: none;
+  color: #fff;
+  width: 100px;
+  background: #4676d7;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
 .no-btn {
+  appearance: none;
+  width: 100px;
   color: #4676d7;
+  width: 50px;
   background: #fff;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+.yes-btn:hover, .no-btn:hover {
+  opacity: .7;
 }
 
 input[type="text"] {
@@ -613,6 +662,58 @@ input[type="text"] {
   color: #999;
   margin-left: auto;
   font-size: 15px;
+}
+
+.personal-image {
+  text-align: center;
+}
+
+.personal-image input[type="file"] {
+  display: none;
+}
+
+.personal-figure {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.personal-avatar {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  border: 2px solid #0000;
+  border-radius: 100%;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 2px 4px #0003;
+}
+
+.personal-avatar:hover {
+  box-shadow: 0 2px 4px #00000080;
+}
+
+.personal-figcaption {
+  cursor: pointer;
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+  background-color: #0000;
+  border-radius: 100%;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 0;
+}
+
+.personal-figcaption:hover {
+  opacity: 1;
+  background-color: #00000080;
+}
+
+.personal-figcaption > img {
+  width: 50px;
+  height: 50px;
+  margin-top: 32.5px;
 }
 
 * {
