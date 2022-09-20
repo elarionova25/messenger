@@ -9,14 +9,12 @@ input[type="text"] {
     margin-bottom: 1rem;
 }
 
-/* стили для label */
 .text-field__label {
     display: block;
     margin-bottom: 0.25rem;
     text-align: left;
 }
 
-/* стили для input */
 .text-field__input {
     display: block;
     width: 100%;
